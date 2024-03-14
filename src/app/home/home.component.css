@@ -1,0 +1,102 @@
+h1{
+    font-family: 'Arbutus Slab', serif;
+}
+
+section{
+    font-family: 'Arbutus Slab', serif;
+    font-size: 18pt
+}
+
+.testimonials-fluid {
+    color:#010101;
+    background-color:white;
+  }
+  
+  .testimonials-fluid p {
+    color:#010101;
+  }
+  
+  .testimonials-fluid h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-fluid h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-fluid .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-fluid .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-fluid .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-fluid .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-fluid .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-fluid .item .box {
+    padding:30px;
+    background-color:#ded1d1;
+    position:relative;
+  }
+  
+  .testimonials-fluid .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-fluid .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-fluid .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-fluid .item .title {
+    font-size:13px;
+    color:#9da9ae;
+  }
+  
+  .testimonials-fluid .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-fluid .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
