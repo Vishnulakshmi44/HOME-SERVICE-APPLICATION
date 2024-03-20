@@ -11,6 +11,8 @@ import { CustomerregistrationComponent } from './customerregistration/customerre
 import { ServiceproviderregistrationComponent } from './serviceproviderregistration/serviceproviderregistration.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ServicepageComponent } from './servicepage/servicepage.component';
+import { ApiComponent } from './services/api/api.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FooterComponent } from './footer/footer.component';
     CustomerregistrationComponent,
     ServiceproviderregistrationComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ServicepageComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,

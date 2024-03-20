@@ -6,6 +6,7 @@ import { CustomerloginComponent } from './customerlogin/customerlogin.component'
 import { ServiceproviderloginComponent } from './serviceproviderlogin/serviceproviderlogin.component';
 import { CustomerregistrationComponent } from './customerregistration/customerregistration.component';
 import { ServiceproviderregistrationComponent } from './serviceproviderregistration/serviceproviderregistration.component';
+import { ServicepageComponent } from './servicepage/servicepage.component';
 const routes: Routes = [
   {
     path:"", component:HomeComponent
@@ -26,6 +27,9 @@ const routes: Routes = [
 },
  {
   path:"serviceprovider/serviceproviderlogin", component:ServiceproviderloginComponent
+},
+{
+  path:"services/servicespage", component:ServicepageComponent
 },
 
 
