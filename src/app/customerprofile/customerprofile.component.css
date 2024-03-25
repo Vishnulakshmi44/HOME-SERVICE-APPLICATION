@@ -1,0 +1,53 @@
+.div{
+    background-color: #9705a1;
+    font-family: 'Arbutus Slab', serif;
+    font-size: larger;
+    color:whitesmoke;
+    size: 20px;
+}
+.navbar{
+    background-color: #9705a1;
+    font-family: 'Arbutus Slab', serif;
+    font-size: larger;
+}
+.nav-item{
+color: aliceblue;
+font-family:'Arbutus Slab', serif;
+font-size: larger;
+
+}
+.btn{
+    color: #ff7300;
+    background-color: #810d8ac9;
+   
+}
+.img{
+    text-align: center;
+}
+
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn1{
+    color: #ffffff;
+    background-color:#810d8ac9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+  }
+
+  .p{
+    padding-left: 20;
+    text-align:center;
+  }
+  .container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
