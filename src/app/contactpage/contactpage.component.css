@@ -1,0 +1,94 @@
+.contact {
+    padding: 100px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: rgb(237, 241, 241);
+    height: 700px;
+}
+
+.container{
+    height: min-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.contact .heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact .heading h1 span {
+    color: #9705a1;;
+}
+
+.contact .heading p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7;
+    color:  #9705a1;;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: #dbd6d6;
+    border: 0;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: #9705a1;;
+    color: #ffffff;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info {
+    margin-top: 30px;
+}
+.contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+}
+.contact .content .info h4 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+    font-size: 18px;
+    font-weight: 500;
+    color:  #9705a1;;
+}
+.div{
+    background-color: #9705a1;
+    font-family: 'Arbutus Slab', serif;
+    font-size: larger;
+    color:whitesmoke;
+    size: 20px;
+}

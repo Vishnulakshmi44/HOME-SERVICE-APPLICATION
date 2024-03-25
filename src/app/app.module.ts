@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -12,7 +11,21 @@ import { ServiceproviderregistrationComponent } from './serviceproviderregistrat
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServicepageComponent } from './servicepage/servicepage.component';
-import { ApiComponent } from './services/api/api.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { CustomerpageComponent } from './customerpage/customerpage.component';
+import { AdminpageComponent } from './adminpage/adminpage.component';
+import { ServiceproviderpageComponent } from './serviceproviderpage/serviceproviderpage.component';
+import { CustomerprofileComponent } from './customerprofile/customerprofile.component';
+import { CustomerupdateComponent } from './customerupdate/customerupdate.component';
+import { CustomerlistComponent } from './customerlist/customerlist.component';
+import { ServiceproviderlistComponent } from './serviceproviderlist/serviceproviderlist.component';
+import { ContactpageComponent } from './contactpage/contactpage.component';
+import { ServiceprofileComponent } from './serviceprofile/serviceprofile.component';
+import { ServiceprofileupdateComponent } from './serviceprofileupdate/serviceprofileupdate.component';
+import { AddpackageformComponent } from './addpackageform/addpackageform.component';
+
 
 @NgModule({
   declarations: [
@@ -26,11 +39,25 @@ import { ApiComponent } from './services/api/api.component';
     HeaderComponent,
     FooterComponent,
     ServicepageComponent,
-    ApiComponent
+    CustomerpageComponent,
+    AdminpageComponent,
+    ServiceproviderpageComponent,
+    CustomerprofileComponent,
+    CustomerupdateComponent,
+    CustomerlistComponent,
+    ServiceproviderlistComponent,
+    ContactpageComponent,
+    ServiceprofileComponent,
+    ServiceprofileupdateComponent,
+    AddpackageformComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

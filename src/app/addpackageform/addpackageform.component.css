@@ -1,27 +1,45 @@
-.h5{
-    font-weight: bold;
+.navbar{
+    background-color: #9705a1;
+    font-family: 'Arbutus Slab', serif;
+    font-size: larger;
 }
+.nav-item{
+color: aliceblue;
+font-family:'Arbutus Slab', serif;
+font-size: larger;
+
+}
+form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #9705a1;;
+}
+
+.img{
+    height: 500px;
+}
+
 .admin{
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
-    text-decoration: solid;
 }
 .btn{
-    color:#9705a1;
-    background-color:#9705a1;
-    text-decoration:#9705a1;
+    color: #9705a1;;
+    background-color:  #9705a1;;
+    text-decoration: #9705a1;;
+    align-items: center;
 }
 
 .small{
-    color: #044439;
+    color:  #9705a1;;
 }
 .p{
-    color:#9705a1;  
+    color:  #9705a1;;  
 }
 
 form{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #9705a1;
+    color:  #9705a1;;
 }
 
 .img{
