@@ -51,4 +51,25 @@ font-size: larger;
 
   }
   /* MODAL */
-  
+  /* Styles for rating stars */
+.rating {
+  display: inline-block;
+}
+
+.rating input[type="radio"] {
+  display: none;
+}
+
+.rating label {
+  cursor: pointer;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.rating label:before {
+  content: '\2605'; /* Unicode character for star */
+}
+
+.rating input[type="radio"]:checked ~ label {
+  color: #ffdd57; /* Change color for checked stars */
+}

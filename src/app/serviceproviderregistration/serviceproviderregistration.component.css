@@ -34,12 +34,49 @@ form{
     color:whitesmoke;
     size: 20px;
 }
-.dropdown-toggle {
-    width: 550px; /* Adjust the width as needed */
-    height: 50px;
-    color: white;
-}
+
 .btn-secondary {
     background-color: #ffffff;
     color: #000000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.dropdown-content label input[type="checkbox"] {
+    margin-right: 6px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn{
+    background-color: white;
+    width:550px;
+    height: 45px;
+}
+.form-outline .dropbtn {
+    text-align: left;
+}
+
+.form-outline .dropbtn i {
+    margin-right: 5px; /* Adjust as needed */
 }

@@ -6,13 +6,13 @@
           <div class="card" style="border-radius: 1rem;">
             <div class="row g-0">
               <div class="col-md-6 col-lg-5 d-none d-md-block">
-                <img src="https://img.freepik.com/free-vector/healthcare-smart-card-abstract-concept-illustration-manage-patient-identity-practitioners-pharmacists-secure-access-medical-records-improved-communication_335657-884.jpg?w=2000"
-                  alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                <img src="https://img.freepik.com/free-vector/my-password-concept-illustration_114360-4294.jpg?w=740&t=st=1711897315~exp=1711897915~hmac=b326ad4b7b226d7504ce150e21ea192bc8fcf2a006ef345487ee2022291aa0a0"
+                  alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem; padding-top: 50px;" />
               </div>
               <div class="col-md-6 col-lg-7 d-flex align-items-center">
                 <div class="card-body p-4 p-lg-5 text-black">
   
-                  <form [formGroup]="customerLoginForm "(ngSubmit)="loginuser()">
+                  <!-- <form [formGroup]="customerLoginForm "(ngSubmit)="loginuser()"> -->
   
                     <div class="d-flex align-items-center mb-3 pb-1">
                       <span class="h1 fw-bold mb-0">Elite Services</span>
@@ -31,14 +31,15 @@
                    
   
                     <div class="pt-1 mb-4">
-                      <button class="btn btn-success btn-lg btn-block text-light"   type="submit">Login</button>
+                      <button class="btn btn- btn-lg btn-block text-light"   type="submit" routerLink="/customer/customerpage">Login</button>
                     </div>
+                    
   
                     <p class="mb-5 pb-lg-2" style=" color:  #9705a1;">New User? &nbsp;&nbsp;&nbsp;&nbsp;
                          <a routerLink="/customer/customerregister" style=" color:  #9705a1;">Register here</a></p>
                     <a href="" class="small " >Terms of use.</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="" class="small ">Privacy policy</a>
-                  </form>
+                  <!-- </form> -->
   
                 </div>
               </div>

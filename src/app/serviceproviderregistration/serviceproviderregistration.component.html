@@ -7,8 +7,8 @@
           <div class="row g-0">
             <div class="col-md-6 col-lg-5 d-none d-md-block">
               <img
-                src="https://img.freepik.com/free-vector/healthcare-smart-card-abstract-concept-illustration-manage-patient-identity-practitioners-pharmacists-secure-access-medical-records-improved-communication_335657-884.jpg?w=2000"
-                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                src="https://img.freepik.com/free-vector/cartoon-character-filling-form-survey-checklist-man-writing-test-signing-business-medical-document-flat-illustration_74855-20483.jpg"
+                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem ; margin-top: 250px;  width: 500px; height: 500px;"  />
             </div>
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black">
@@ -44,79 +44,37 @@
                   <input name="EmailAddress" formControlName="EmailAddress" type="email"
                     class="form-control form-control-lg" />
                   <label class="form-label" for="form2Example17">Email Address</label>
-                  <!-- <div *ngIf="this.patientRegisterForm.get('EmailAddress')?.errors&&this.patientRegisterForm.get('EmailAddress')?.touched"
-                                        class="text-danger">*Invalid Email Address</div> -->
+                 
                 </div>
 
                 <div class="form-outline mb-4">
                   <input name="MobileNumber" formControlName="MobileNumber" type="text"
                     class="form-control form-control-lg" />
                   <label class="form-label" for="form2Example27">Mobile Number</label>
-                  <!-- <div *ngIf="this.patientRegisterForm.get('BloodGroup')?.errors&&this.patientRegisterForm.get('BloodGroup')?.touched"
-                                        class="text-danger">*Invalid Entry</div> -->
+                  
                 </div>
-                
-                <div class="form-outline mb-4">
-                  <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        
-                      </button>
-                      <label class="form-check-label" for="service1">
-                       Choose Services
-                    </label>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="Interior Cleaning" id="service1">
-                              <label class="form-check-label" for="service1">
-                                  Interior Cleaning
-                              </label>
-                          </div>
-                          <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="Exterior Cleaning" id="service2">
-                              <label class="form-check-label" for="service2">
-                                  Exterior Cleaning
-                              </label>
-                          </div>
-                          <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                              <label class="form-check-label" for="service3">
-                                  Electrical Works
-                              </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                            <label class="form-check-label" for="service3">
-                                Carpenting Works
-                            </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                          <label class="form-check-label" for="service3">
-                              Painting
-                          </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                        <label class="form-check-label" for="service3">
-                            Gardening
-                        </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                      <label class="form-check-label" for="service3">
-                          Laundry
-                      </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Plumbing Works" id="service3">
-                    <label class="form-check-label" for="service3">
-                        Others
-                    </label>
-                </div>
-                         
-                      </div>
+                <div class="dropdown form-outline mb-4">
+                  <button class="dropbtn form-control form-control-lg"  type="text" > Services <i class="fas fa-chevron-down"></i></button>
+                  <label class="form-label" for="form2Example27">Choose Services</label>
+
+                  <div class="dropdown-content " >
+                      <label ><input type="checkbox" name="service1"> Interior Cleaning</label>
+                      <label><input type="checkbox" name="service2"> Exterior Cleaning</label>
+                      <label><input type="checkbox" name="service3">  Electrical Works</label>
+                      <label><input type="checkbox" name="service3">  Carpenting Works</label>
+                      <label><input type="checkbox" name="service3">  Painting</label>
+                      <label><input type="checkbox" name="service3">  Gardening</label>
+                      <label><input type="checkbox" name="service3">  Laundry</label>
+                      <label ><input type="checkbox" name="service3">  Others</label>
+
                   </div>
               </div>
+        
+              
+              
+              
+             
+                        
               
                 <div class="form-outline mb-4">
                   <input formControlName="Price" name="Price" type="text" class="form-control form-control-lg" />
@@ -149,7 +107,7 @@
                 </div>
 
                 <div class="pt-1 mb-4">
-                  <button class="btn btn-success btn-lg btn-block text-light" type="submit">Register</button>
+                  <button class="btn btn-success btn-lg btn-block text-light " routerLink="/serviceprovider/serviceproviderlogin" type="submit">Register</button>
                 </div>
 
                 <p class="mb-5 pb-lg-2" style=" color:#9705a1;">Already Registered?

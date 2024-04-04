@@ -25,6 +25,10 @@ import { ContactpageComponent } from './contactpage/contactpage.component';
 import { ServiceprofileComponent } from './serviceprofile/serviceprofile.component';
 import { ServiceprofileupdateComponent } from './serviceprofileupdate/serviceprofileupdate.component';
 import { AddpackageformComponent } from './addpackageform/addpackageform.component';
+import { BookserviceComponent } from './bookservice/bookservice.component';
+import { ViewpackagesComponent } from './viewpackages/viewpackages.component';
+import { ViewservicesComponent } from './viewservices/viewservices.component';
+import { ViewmoreComponent } from './viewmore/viewmore.component';
 
 
 @NgModule({
@@ -50,6 +54,10 @@ import { AddpackageformComponent } from './addpackageform/addpackageform.compone
     ServiceprofileComponent,
     ServiceprofileupdateComponent,
     AddpackageformComponent,
+    BookserviceComponent,
+    ViewpackagesComponent,
+    ViewservicesComponent,
+    ViewmoreComponent,
 
   ],
   imports: [
