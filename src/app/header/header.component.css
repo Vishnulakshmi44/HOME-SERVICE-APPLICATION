@@ -1,16 +1,17 @@
 .navbar{
     background-color: #9705a1;
-    font-family: 'Arbutus Slab', serif;
-    font-size: larger;
+font-family: 'Times New Roman', Times, serif;   
+ font-size: larger;
 }
 .nav-item{
 color: aliceblue;
-font-family:'Arbutus Slab', serif;
+font-family: 'Times New Roman', Times, serif;   
 font-size: larger;
 
 }
 .btn{
     color: #ff7300;
     background-color: #810d8ac9;
-   
+    font-family: 'Times New Roman', Times, serif;   
+  
 }

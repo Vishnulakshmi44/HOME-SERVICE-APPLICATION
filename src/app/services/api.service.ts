@@ -12,28 +12,28 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   // User Register
-  registeruser(name: any, address: any, contactnumber: any, email: any, password: any,) {
-    const body = {
-                name,
-                address,
-                email,
-                contactnumber,
-                password,
-                // userimage,
-    }
-    return this.http.post(`${this.base_url}/user/register`, body)
-  }
+  // registeruser(name: any, address: any, contactnumber: any, email: any, password: any,) {
+  //   const body = {
+  //               name,
+  //               address,
+  //               email,
+  //               contactnumber,
+  //               password,
+  //               // userimage,
+  //   }
+  //   return this.http.post(`${this.base_url}/user/register`, body)
+  // }
 
   // User Login 
 
-  loginuser(email: any, password: any) {
-    const body = {
-     email,
-     password,
-    }
-    return this.http.post(`${this.base_url}/user/login`, body)
+  // loginuser(email: any, password: any) {
+  //   const body = {
+  //    email,
+  //    password,
+  //   }
+  //   return this.http.post(`${this.base_url}/user/login`, body)
 
-  }
+  // }
 //Admin login
 
   // adminLogin(EmailAddress: any, Password: any) {

@@ -6,13 +6,13 @@
                 <div class="card" style="border-radius: 1rem;">
                     <div class="row g-0">
                         <div class="col-md-6 col-lg-5 d-none d-md-block">
-                            <img src="https://img.freepik.com/free-vector/healthcare-smart-card-abstract-concept-illustration-manage-patient-identity-practitioners-pharmacists-secure-access-medical-records-improved-communication_335657-884.jpg?w=2000"
-                                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                            <img src="https://img.freepik.com/premium-vector/online-registration-illustration-design-concept-websites-landing-pages-other_108061-938.jpg"
+                                alt="login form"  class="img-fluid" style="border-radius: 1rem 0 0 1rem; padding-top: 220px;" />
                         </div>
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
                             <div class="card-body p-4 p-lg-5 text-black">
 
-                                <form [formGroup]="customerRegisterForm" (ngSubmit)="registeruser()">
+                                <!-- <form [formGroup]="customerRegisterForm" (ngSubmit)="registeruser()"> -->
 
                                     <div class="d-flex align-items-center mb-3 pb-1">
                                         <span class="h1 fw-bold mb-0">Elite Services</span>
@@ -24,8 +24,7 @@
                                     <div class="form-outline mb-4">
                                         <input name="Name" formControlName="Name" type="text"  class="form-control  form-control-lg" >
                                         <label class="form-label" for="form2Example17">Name</label>
-                                        <!-- <div *ngIf="this.customerRegisterForm.get('CustomerName')?.errors&&this.customerRegisterForm.get('CustomerName')?.touched"
-                                            class="text-danger">*Invalid Name</div> -->
+                                      
 
 
                                     </div>
@@ -33,16 +32,14 @@
                                     <div class="form-outline mb-4">
                                         <input name="Address" formControlName="Address" type="text"  class="form-control  form-control-lg" >
                                         <label class="form-label" for="form2Example17">Address</label>
-                                        <!-- <div *ngIf="this.patientRegisterForm.get('CustomerAddress')?.errors&&this.patientRegisterForm.get('PatientName')?.touched"
-                                            class="text-danger">*Invalid Name</div> -->
+                                       
 
 
                                     </div>
                                     <div class="form-outline mb-4">
                                         <input name="EmailAddress" formControlName="EmailAddress" type="email"  class="form-control form-control-lg" />
                                         <label class="form-label" for="form2Example17">Email Address</label>
-                                        <!-- <div *ngIf="this.patientRegisterForm.get('EmailAddress')?.errors&&this.patientRegisterForm.get('EmailAddress')?.touched"
-                                        class="text-danger">*Invalid Email Address</div> -->
+                                        
                                     </div>
                                   
                                     <div class="form-outline mb-4">
@@ -70,9 +67,13 @@
                                     </div>
 
                                     <div class="pt-1 mb-4">
-                                        <button class="btn btn-success btn-lg btn-block text-light"
+                                        <button class="btn btn- btn-lg btn-block text-light" routerLink="/customer/customerlogin"
                                             type="submit">Register</button>
-                                    </div>
+                                    </div> 
+                                   
+                                  
+                                
+                                  
 
                                     <p class="mb-5 pb-lg-2" style=" color:#9705a1;">Already Registered?
                                         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -82,7 +83,7 @@
                                     <a href="" class="small " style=" color: #9705a1;">Terms of use.</a>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="" class="small " style=" color: #9705a1;">Privacy policy</a>
-                                </form>
+                                <!-- </form> -->
 
                             </div>
                         </div>

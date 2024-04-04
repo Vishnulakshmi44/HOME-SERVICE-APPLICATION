@@ -18,64 +18,101 @@ import { CustomerupdateComponent } from './customerupdate/customerupdate.compone
 import { CustomerlistComponent } from './customerlist/customerlist.component';
 import { ServiceproviderlistComponent } from './serviceproviderlist/serviceproviderlist.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
+import { BookserviceComponent } from './bookservice/bookservice.component';
+import { ViewpackagesComponent } from './viewpackages/viewpackages.component';
+import { ViewservicesComponent } from './viewservices/viewservices.component';
+import { ViewmoreComponent } from './viewmore/viewmore.component';
 const routes: Routes = [
+  //Home Page
   {
-    path:"", component:HomeComponent
+    path: "", component: HomeComponent
   },
+  // Admin Login
+  {
+    path: "admin/adminlogin", component: AdminloginComponent
+  },
+  //Admin Dashboard
+  {
+    path: "admin/adminpage", component: AdminpageComponent
+  },
+  //Admin Customerlist - from dashboard
+  {
+    path: "adminpage/customerlist", component: CustomerlistComponent
+  },
+  //Admin serviceproviderlist - from dashboard
 
   {
-     path:"admin/adminlogin", component:AdminloginComponent
+    path: "adminpage/serviceproviderlist", component: ServiceproviderlistComponent
+  },
+  // CustomerRegister
+
+  {
+    path: "customer/customerregister", component: CustomerregistrationComponent
+  },
+  //Customer Login
+  {
+    path: "customer/customerlogin", component: CustomerloginComponent
+  },
+  // Customer interface
+  {
+    path: "customer/customerpage", component: CustomerpageComponent
+  },
+  //Customer Profile
+  {
+    path: "customerpage/customerprofile", component: CustomerprofileComponent
+  },
+  // Customer Profile Update
+  {
+    path: "customerprofile/update", component: CustomerupdateComponent
+  },
+  //Service Provider Register
+  {
+    path: "serviceprovider/serviceproviderregister", component: ServiceproviderregistrationComponent
+  },
+  //Service Provider Login
+  {
+    path: "serviceprovider/serviceproviderlogin", component: ServiceproviderloginComponent
+  },
+  //Service provider - dashboard
+  {
+    path: "serviceprovider/serviceproviderpage", component: ServiceproviderpageComponent
+  },
+  //Service Provider Profile
+  {
+    path: "serviceproviderpage/serviceprofile", component: ServiceprofileComponent
+  },
+  //Service Provider -Add Packages
+  {
+    path: "serviceproviderpage/addpackage", component: AddpackageformComponent
+  },
+  //Service Provider - Update
+  {
+    path: "serviceprofile/update", component: ServiceprofileupdateComponent
+  },
+  //SERvices listing page ..from home
+  {
+    path: "services/servicespage", component: ServicepageComponent
+  },
+  // Contact Us Page
+  {
+    path: "home/contact", component: ContactpageComponent
+  },
+  // Book Service Page - from view services
+  {
+    path: "service/bookservice", component: BookserviceComponent
+  },
+  //View Packages given by service provider for customer and service provider
+  {
+    path: "customer/viewpackages", component: ViewpackagesComponent
+  },
+  // Service page for viewing services and for booking appointments
+
+  {
+    path: "customer/viewservices", component: ViewservicesComponent
   },
   {
-    path:"admin/adminpage", component:AdminpageComponent
- },
- {
-  path:"adminpage/customerlist", component:CustomerlistComponent
-},
-{
-  path:"adminpage/serviceproviderlist", component:ServiceproviderlistComponent
-},
-  
-  {
-    path:"customer/customerregister", component:CustomerregistrationComponent
+    path: "servicespage/viewmore", component: ViewmoreComponent
   },
-    
-  {
-    path:"customer/customerlogin", component:CustomerloginComponent
- },
- {
-  path:"customer/customerpage", component:CustomerpageComponent
-},
-{
-  path:"customerpage/customerprofile", component:CustomerprofileComponent
-},
-{
-  path:"customerprofile/update", component:CustomerupdateComponent
-},
- {
-  path:"serviceprovider/serviceproviderregister", component:ServiceproviderregistrationComponent
-},
- {
-  path:"serviceprovider/serviceproviderlogin", component:ServiceproviderloginComponent
-},
-{
-  path:"serviceprovider/serviceproviderpage", component:ServiceproviderpageComponent
-},
-{
-  path:"serviceproviderpage/serviceprofile", component:ServiceprofileComponent
-},
-{
-  path:"serviceproviderpage/addpackage", component:AddpackageformComponent
-},
-{
-  path:"serviceprofile/update", component:ServiceprofileupdateComponent
-},
-{
-  path:"services/servicespage", component:ServicepageComponent
-},
-{
-  path:"home/contact", component:ContactpageComponent
-},
 
 
 

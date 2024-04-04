@@ -12,11 +12,11 @@
           <a class="nav-link active ms-lg-4 me-4 " aria-current="page" routerLink="/" style="color:   white;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active ms-lg-4 me-4" routerLink="/services/servicespage" style="color: white;">Services</a>
+          <a class="nav-link active ms-lg-4 me-4" routerLink="/customer/viewservices" style="color: white;">Services</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active ms-lg-4 me-4" routerLink="" style="color:  white;">Packages</a>
+          <a class="nav-link active ms-lg-4 me-4" routerLink="/customer/viewpackages" style="color:  white;">Packages</a>
         </li>
         <!-- <li class="nav-item">
             <a class="nav-link active ms-lg-4 me-4" routerLink="" style="color:  white;">Feedback</a>
@@ -27,10 +27,10 @@
 
 
         <li class="nav-item">
-          <a class="nav-link active ms-lg-4 me-4" routerLink="" style="color:  white;">Contact Us</a>
+          <a class="nav-link active ms-lg-4 me-4" routerLink="/home/contact" style="color:  white;">Contact Us</a>
         </li>
         <button class="btn btn- ms-lg-3 me-5 text-white fw-bold border-white" routerLink="" style="color: white;"><i
-            class="fa-solid fa-users" style="color: #ffffff;"></i> Log Out</button>
+            class="fa-solid fa-users" style="color: #ffffff; "></i> Log Out</button>
 
 
       </ul>
@@ -104,9 +104,29 @@
                           <input type="email" id="email" name="email" class="form-control">
                         </div>
                         <div class="form-group">
+                          <label for="feedback-details">Service Provider:</label>
+                          <input type="text" id="serviceprovider" name="serviceprovider" class="form-control">
+                        </div>
+                        <div class="form-group">
                           <label for="feedback-details">Feedback:</label>
                           <textarea id="feedback-details" name="feedback-details" class="form-control"></textarea>
                         </div>
+                        <div class="form-group">
+                          <label for="feedback-details">Rate Us:</label>
+
+                        <div class="rating" >
+                          <input type="radio" id="star5" name="rating" value="1">
+                          <label for="star1"></label>
+                          <input type="radio" id="star4" name="rating" value="2">
+                          <label for="star2"></label>
+                          <input type="radio" id="star3" name="rating" value="3">
+                          <label for="star3"></label>
+                          <input type="radio" id="star2" name="rating" value="4">
+                          <label for="star4"></label>
+                          <input type="radio" id="star1" name="rating" value="5">
+                          <label for="star5"></label>
+                        </div>
+                      </div>
                       </form>
                     </div>
                     <div class="modal-footer">

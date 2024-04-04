@@ -1,0 +1,104 @@
+.div{
+    background-color: #9705a1;
+    font-size: larger;
+    color:whitesmoke;
+    size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.navbar{
+    background-color: #9705a1;
+    font-size: larger;
+    font-family: "Times New Roman", Times, serif;
+}
+.nav-item{
+color: aliceblue;
+font-size:20px;
+font-family: "Times New Roman", Times, serif;
+
+}
+.btn{
+    color: #ff7300;
+    background-color: #810d8ac9;
+    font-family: "Times New Roman", Times, serif;
+   
+}
+
+
+#Viewmore {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.m1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.brand-card {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.pics {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.pics img {
+    width: 300px; /* Adjust the image width as needed */
+    height: 200px;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 37px;
+
+}
+
+.intro {
+    flex: 1;
+    font-family: "Times New Roman", Times, serif;
+font-size: 22px;
+}
+
+.h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.brand-p {
+    line-height: 1.5;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 20px;
+
+}
+.brand-p ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.brand-p ul li {
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.service-heading {
+    color:#9705a1 ;/* Change color as desired */
+    
+    font-size: 23px;
+}
+
+

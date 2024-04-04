@@ -23,6 +23,7 @@ form{
 
 .img{
     height: 500px;
+   
 }
 .div{
     background-color: #9705a1;
@@ -31,4 +32,14 @@ form{
     color:whitesmoke;
     size: 20px;
 }
+.navbar{
+    background-color: #9705a1;
+    font-size: larger;
+    font-family: "Times New Roman", Times, serif;
+}
+.nav-item{
+color: aliceblue;
+font-size:20px;
+font-family: "Times New Roman", Times, serif;
 
+}

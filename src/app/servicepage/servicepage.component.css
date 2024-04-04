@@ -4,8 +4,8 @@
 
 
 .card{
-    width: 300px;
-    height: 355px;
+    width: 370px;
+    height: 380px;
     margin-left: 60px;
     margin-right: 60px;
     justify-content: center;
@@ -16,11 +16,15 @@
     border-radius: 10px;
     box-shadow: #ffffff;
    border: 10;
+   font-family: 'Times New Roman', Times, serif;
+
 
 }
 
 .card :hover{
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .container1{
@@ -50,13 +54,16 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     background-color:#9705a1;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 .div{
     background-color: #9705a1;
-    font-family: 'Arbutus Slab', serif;
     font-size: larger;
     color:whitesmoke;
     size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 
@@ -64,6 +71,8 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 .card-title{
     text-decoration: solid;
     font-weight:900;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9705a1;
     
 }
 
